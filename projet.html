@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script_proj.js" defer></script>
+    <title>Portfolio - Projets - Erwann Garnier</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="portfolio.html">Portfolio - Garnier Erwann</a>
+            </div>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-list">
+                <li><a href="portfolio.html#about">A propos</a></li>
+                <li><a href="cv.html">Expérience</a></li>
+                <li><a href="passion.html">Passions</a></li>
+                <li><a href="portfolio.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Projet">
+        <h1>Projets</h1>
+        <p>Voici les projets que j'ai pu faire durant mes études ou sur mon temps libre.</p>
+        <button class="custom-button" data-target="Premiere">Projet de première</button>
+        <button class="custom-button" data-target="Informatique">Projet de terminale</button>
+        <button class="custom-button" data-target="SAE_GO">SAE de go en 1ère année de BUT</button>
+    
+    <section id="Premiere">
+        <h1>Projet de première</h1>
+        <p>En première, j'ai réalisé un projet sur un garage automatique à drone.</p>
+        <p>Le but était de faire un garage automatique pour un drone qui devait se poser sur une plateforme, être rechargé et être protégé des intempéries.</p>
+        <p>Le projet était en groupe de 4.</p>
+        <p>Ma part était de réaliser tout le code Arduino.</p>
+        <h2>Voici le code</h2>
+        <img src="img\code_premiere.png" alt="Code Arduino">
+        <h2>Voici le montage</h2>
+        <img src="img\drone.png" alt="Montage Arduino">
+        <h2>Compétences impliquées</h2>
+        <div class="image-grid">
+            <img src="img\arduino.png" alt="Image 1">
+            <img src="img\arduino_carte.jpg" alt="Image 2"> 
+        </div>
+    </section>
+    
+    <section id="Informatique">
+        <h1>Projet de terminale</h1>
+        <p>En terminale, j'ai réalisé la commande automatique d'un bras robot à air comprimé.</p>
+        <p>Le but était que celui-ci déplace des bouteilles de gaz dans un site Seveso. On devait aussi implémenter un capteur de gaz afin de détecter les fuites de gaz et un capteur biométrique pour sécuriser l'accès au bras.</p>
+        <p>Le projet était en groupe de 4.</p>
+        <p>Ma part était de réaliser tout le code Arduino de la partie commande du bras.</p>
+        <h2>Photo du bras</h2>
+        <img src="img\robot.jpg" alt="Code Arduino">
+        <h2>Voici le montage</h2>
+        <img src="img\montage_robot.jpg" alt="Montage Arduino">
+        <h2>Compétences impliquées</h2>
+        <div class="image-grid">
+            <img src="img\arduino.png" alt="Image 1">
+            <img src="img\arduino_carte.jpg" alt="Image 2"> 
+        </div>
+    </section>
+    
+    <section id="SAE_GO">
+        <h1>Projet de 1ère année de BUT informatique</h1>
+        <p>Le projet consistait à modifier un jeu que nous avait fourni nos professeurs.</p>
+        <p>Le but était de tout d'abord créer la génération du terrain sur lequel le personnage se déplace en utilisant un Quadtree qui est une méthode de stockage de données.</p>
+        <p>Ensuite, il fallait ajouter des fonctionnalités au jeu comme la possibilité de se téléporter, rendre l'eau animée, changer la caméra et changer le monde.</p>
+        <p>Le projet était en groupe de 2.</p>
+        <p>Ma part était de réaliser la partie qui crée le Quadtree à partir d'un tableau puis de créer certaines extensions telles que des téléporteurs.</p>
+        <a href="https://gitlab.univ-nantes.fr/E235325N/project-quadtree-basile-erwan/-/releases"><p>Lien du git</p></a>
+        <h2>Photo de la base que l'on avait à disposition/ Avec les extensions activées</h2>
+        <div class="image-grid2">
+            <img src="img\quadtree.png" alt="Montage Arduino">
+            <img src="img\quadtree2.png" alt="Image 2"> 
+        </div>
+        <h2>Compétences impliquées</h2>
+        <div class="image-grid">
+            <img src="img\go.png" alt="Image 1">
+            <img src="img\Gitlab-logo.png" alt="Image 2"> 
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 - Erwann Garnier - Mon portfolio</p>
+    </footer>
+</body>
+</html>
